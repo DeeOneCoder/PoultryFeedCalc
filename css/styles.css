@@ -1,0 +1,1749 @@
+:root {
+    --primary-color: rgb(201, 239, 201);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 12.6px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background: linear-gradient(180deg, white, whitesmoke, var(--primary-color), whitesmoke, green);
+}
+
+h1.heading {
+    font-size: 4rem;
+    margin: 0;
+    padding: 15px;
+    color: black;
+}
+
+h3.heading {
+    font-size: 2.2rem;
+    margin: 0;
+    padding: 6px;
+    color: black;
+}
+
+p.header {
+    font-size: 1.4rem;
+    padding: 0px 120px;
+    font-weight: 500;
+}
+
+#head {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    /* box-shadow: 2px 5px 5px (180deg, green 5%, whitesmoke, white); */
+}
+
+.body {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+}
+
+.main-frame {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 0;
+    min-height: 68dvh;
+    /* border: 2px solid red; */
+}
+
+.bird {
+    display: block;
+    margin: 0;
+    padding: 6px 15px;
+    width: 37%;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+}
+
+.bird-name {
+    background: rgb(7, 116, 28);
+    height: 50px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 0 10px 12px;
+    border-radius: 6px 6px 0 0;
+}
+
+.bird-detail {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 15px;
+    padding: 3px 5px;
+}
+
+h2 {
+    font-size: 2.3rem;
+    color: whitesmoke;
+}
+
+.img {
+    width: 60%;
+    height: 200px;
+    image-rendering: inherit;
+
+}
+
+.proceed {
+    display: block;
+    width: 55%;
+    background-color: rgb(7, 116, 28);
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 15px 0;
+    margin: 20px auto;
+    border-radius: 35px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.proceed:hover {
+    /* background-color: rgb(19, 194, 74); */
+    font-weight: bolder;
+    /* color: green; */
+    border: 1px solid green;
+    margin: 19.2px auto;
+    box-shadow: 2px 5px 5px rgb(2, 26, 2);
+}
+
+.calculator {
+    display: block;
+    margin: 23px auto;
+    width: 40%;
+    min-height: 86dvh;
+    background-color: rgb(2, 66, 20);
+    padding: 5px;
+    z-index: -1;
+    box-shadow: -2px 1px 15px black;
+}
+
+.inner-calc {
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(177, 245, 196);
+    /* border: 2px solid red; */
+    z-index: 1;
+}
+
+table {
+    border: solid 1px green;
+    width: 100%;
+}
+
+td {
+    width: 29%;
+    color: black;
+}
+
+td:first-of-type {
+    width: 24%;
+    color: black;
+}
+
+td:last-of-type {
+    width: auto;
+    color: black;
+}
+
+table {
+    display: block;
+    margin: 0 auto;
+}
+
+tr {
+    background-color: azure;
+}
+
+tr:last-of-type {
+    font-weight: bolder;
+    text-align: center;
+}
+
+th,
+td:last-of-type {
+    padding: 2px 3px;
+
+}
+
+th {
+    text-align: left;
+}
+
+.home {
+    display: block;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+.calc-header {
+    text-align: center;
+}
+
+.radio-left {
+    align-items: left;
+}
+
+.inner-calc {
+    padding: 5px 20px;
+}
+
+.fieldset {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    border: none;
+    font-size: 1.5rem;
+}
+
+legend {
+    padding: 15px 20px;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+input {
+    height: 12px;
+    align-content: center;
+    align-items: center;
+    padding: 15px 10px;
+    padding: 15px 0;
+}
+
+label {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.form-fields {
+    margin: 10px auto;
+    padding: 15px 20px;
+}
+
+.volume {
+    padding: 15px 10px;
+    width: 78%;
+    border-radius: 5px;
+}
+
+.button {
+    display: block;
+    width: 35%;
+    background-color: rgb(7, 116, 28);
+    text-align: center;
+    /* align-self: right; */
+    font-size: 1.5rem;
+    padding: 15px 0;
+    margin-left: 60%;
+    border-radius: 35px;
+    color: white;
+}
+
+.button:hover {
+    font-weight: bolder;
+    box-shadow: 2px 5px 5px rgb(2, 26, 2);
+}
+
+.output {
+    display: block;
+    margin: 10px auto;
+    font-weight: 700;
+    width: 85%;
+    min-height: 240px;
+    color: rgb(56, 5, 5);
+}
+
+.radio-input {
+    width: 120px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.desc {
+    font-size: x-small;
+    font-weight: 700;
+    color: green;
+}
+
+.save {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 50px;
+    /* background-color: black; */
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 0 !important;
+}
+
+.save:first-of-type {
+    width: 40%;
+    height: 25px;
+    font-size: medium;
+    padding: 0 !important;
+}
+
+.print {
+    color: black;
+}
+
+.footer-note {
+    display: flex;
+    justify-content: space-between;
+    align-content: top;
+    align-items: top;
+    padding-bottom: 16px;
+    padding-left: 109px;
+    padding-right: 109px;
+}
+
+.text {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 500;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+}
+
+.icon:hover {
+    transition: all;
+    background: linear-gradient(green, white, white, white, green);
+    border-radius: 50%;
+    box-shadow: 3px 1px 8px whitesmoke;
+    position: relative;
+    right: 3px;
+}
+
+@media screen and (max-width: 320px) {
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-size: 12.6px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    body {
+        background: linear-gradient(180deg, white, whitesmoke, rgb(201, 239, 201), whitesmoke, green);
+    }
+
+    h1.heading {
+        font-size: 2rem;
+        margin: 0;
+        padding: 30px 0;
+        color: black;
+        text-align: center !important;
+    }
+
+    h3.heading {
+        font-size: 1.5rem;
+        margin: 0;
+        padding: 12px 6px;
+        color: black;
+    }
+
+    p.header {
+        font-size: 1.1rem;
+        padding: 5px 3px;
+        font-weight: 500;
+
+    }
+
+    #head {
+        text-align: justify;
+        margin: 0;
+        padding: 0;
+        height: 90;
+        /* box-shadow: 2px 5px 5px (180deg, green 5%, whitesmoke, white); */
+    }
+
+    .body {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        width: 90%;
+    }
+
+    .main-frame {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px 0;
+        min-height: 90dvh;
+        margin-top: 25px;
+        /* border: 2px solid red; */
+    }
+
+    .bird {
+        display: block;
+        margin: 10px auto 15px;
+        padding: 0px 10px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 2px 2px 5px black;
+    }
+
+    .bird-name {
+        background: rgb(7, 116, 28);
+        height: auto;
+        margin: 10px auto;
+        text-align: center;
+        padding: 3px 10px 12px;
+        border-radius: 6px 6px 0 0;
+    }
+
+    .bird-detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 15px 15px;
+        padding: 15px 5px;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+        color: whitesmoke;
+    }
+
+    .img {
+        align-self: center;
+        width: 75%;
+        height: 200px;
+        image-rendering: inherit;
+
+    }
+
+    .proceed {
+        display: block;
+        width: 70%;
+        background-color: rgb(7, 116, 28);
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 15px 0;
+        margin: 20px auto;
+        border-radius: 40px;
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .proceed:hover {
+        /* background-color: rgb(19, 194, 74); */
+        font-weight: bolder;
+        /* color: green; */
+        border: 1px solid green;
+        margin: 19.2px auto;
+        box-shadow: 2px 5px 5px rgb(2, 26, 2);
+    }
+
+    .calculator {
+        display: block;
+        margin: 23px auto;
+        width: 94%;
+        min-height: 60dvh;
+        background-color: rgb(2, 66, 20);
+        padding: 5px;
+        z-index: -1;
+        box-shadow: -2px 1px 15px black;
+    }
+
+    .inner-calc {
+        display: block;
+        position: relative;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(177, 245, 196);
+        /* border: 2px solid red; */
+        z-index: 1;
+    }
+
+    table {
+        border: solid 1px green;
+        width: 100%;
+    }
+
+    td {
+        width: 29%;
+        color: black;
+    }
+
+    td:first-of-type {
+        width: 24%;
+        color: black;
+    }
+
+    td:last-of-type {
+        width: auto;
+        color: black;
+    }
+
+    table {
+        display: block;
+        margin: 0 auto;
+    }
+
+    tr {
+        background-color: azure;
+    }
+
+    tr:last-of-type {
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    th,
+    td:last-of-type {
+        padding: 2px 3px;
+
+    }
+
+    th {
+        text-align: left;
+    }
+
+    .home {
+        display: block;
+        text-align: center;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    th,
+    td {
+        font-size: .8rem;
+    }
+
+    .calc-header {
+        text-align: center;
+    }
+
+    .radio-left {
+        align-items: left;
+    }
+
+    .inner-calc {
+        padding: 5px 20px;
+    }
+
+    .fieldset {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        margin: 0 auto;
+        border: none;
+        font-size: 1em;
+    }
+
+    legend {
+        padding: 15px 0px;
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
+
+    input {
+        height: 12px;
+        align-content: center;
+        align-items: center;
+        padding: 15px 10px;
+        margin-top: 3px;
+    }
+
+    label {
+        font-size: .9rem;
+        font-weight: 500;
+    }
+
+    .form-fields {
+        margin: 5px 0;
+        padding: 15px 0px;
+    }
+
+    .volume {
+        padding: 15px 10px;
+        width: 98%;
+        border-radius: 5px;
+    }
+
+    .button {
+        display: block;
+        width: 45%;
+        background-color: rgb(7, 116, 28);
+        text-align: center;
+        /* align-self: right; */
+        font-size: 1.2rem;
+        padding: 8px 0;
+        margin-left: 54%;
+        border-radius: 35px;
+        color: white;
+    }
+
+    .button:hover {
+        font-weight: bolder;
+        box-shadow: 2px 5px 5px rgb(2, 26, 2);
+    }
+
+    .output {
+        display: block;
+        margin: 10px auto;
+        font-weight: 500;
+        width: 85%;
+        min-height: 240px;
+        color: rgb(56, 5, 5);
+    }
+
+    .radio-input {
+        width: 120px;
+        border-radius: 5px;
+        padding-left: 5px;
+    }
+
+    .desc {
+        font-size: x-small;
+        font-weight: 700;
+        color: green;
+    }
+
+    .save {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        height: 50px;
+        /* background-color: black; */
+        color: white;
+        text-align: center;
+        padding-top: 5%;
+        border-radius: 0 !important;
+    }
+
+    .save:first-of-type {
+        width: 60%;
+        height: 25px;
+        font-size: medium;
+        padding: 0 !important;
+    }
+
+    .print {
+        color: black;
+    }
+
+    .footer-note {
+        text-align: center;
+        display: inline;
+        justify-content: space-between;
+        align-content: top;
+        align-items: top;
+        padding-bottom: 16px;
+        padding-left: -10px !important;
+        padding-right: -10px;
+    }
+
+    .text {
+        font-size: 1rem;
+        color: white;
+        font-weight: 500;
+        padding: 15px 0;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .icon:hover {
+        transition: all;
+        background: linear-gradient(green, white, white, white, green);
+        border-radius: 50%;
+        box-shadow: 3px 1px 8px whitesmoke;
+        position: relative;
+        right: 3px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-size: 12.6px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    body {
+        background: linear-gradient(180deg, white, whitesmoke, rgb(201, 239, 201), whitesmoke, green);
+    }
+
+    h1.heading {
+        font-size: 2.3rem;
+        margin: 0;
+        padding: 30px 0;
+        color: black;
+        text-align: center !important;
+    }
+
+    h3.heading {
+        font-size: 1.7rem;
+        margin: 0;
+        padding: 12px 6px;
+        color: black;
+    }
+
+    p.header {
+        font-size: 1.2rem;
+        padding: 5px 3px;
+        font-weight: 500;
+
+    }
+
+    #head {
+        text-align: justify;
+        margin: 0;
+        padding: 0;
+        height: 90;
+        /* box-shadow: 2px 5px 5px (180deg, green 5%, whitesmoke, white); */
+    }
+
+    .body {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        width: 90%;
+    }
+
+    .main-frame {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px 0;
+        min-height: 90dvh;
+        margin-top: 25px;
+        /* border: 2px solid red; */
+    }
+
+    .bird {
+        display: block;
+        margin: 10px auto 15px;
+        padding: 0px 10px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 2px 2px 5px black;
+    }
+
+    .bird-name {
+        background: rgb(7, 116, 28);
+        height: auto;
+        margin: 10px auto;
+        text-align: center;
+        padding: 3px 10px 12px;
+        border-radius: 6px 6px 0 0;
+    }
+
+    .bird-detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 15px 15px;
+        padding: 15px 15px;
+    }
+
+    h2 {
+        font-size: 1.9rem;
+        color: whitesmoke;
+    }
+
+    .img {
+        align-self: center;
+        width: 75%;
+        height: 200px;
+        image-rendering: auto;
+
+    }
+
+    .proceed {
+        display: block;
+        width: 70%;
+        background-color: rgb(7, 116, 28);
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 15px 0;
+        margin: 20px auto;
+        border-radius: 40px;
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .proceed:hover {
+        /* background-color: rgb(19, 194, 74); */
+        font-weight: bolder;
+        /* color: green; */
+        border: 1px solid green;
+        margin: 19.2px auto;
+        box-shadow: 2px 5px 5px rgb(2, 26, 2);
+    }
+
+    .calculator {
+        display: block;
+        margin: 23px auto;
+        width: 94%;
+        min-height: 60dvh;
+        background-color: rgb(2, 66, 20);
+        padding: 5px;
+        z-index: -1;
+        box-shadow: -2px 1px 15px black;
+    }
+
+    .inner-calc {
+        display: block;
+        position: relative;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(177, 245, 196);
+        /* border: 2px solid red; */
+        z-index: 1;
+    }
+
+    table {
+        border: solid 1px green;
+        width: 100%;
+    }
+
+    td {
+        width: 29%;
+        color: black;
+    }
+
+    td:first-of-type {
+        width: 24%;
+        color: black;
+    }
+
+    td:last-of-type {
+        width: auto;
+        color: black;
+    }
+
+    table {
+        display: block;
+        margin: 0 auto;
+    }
+
+    tr {
+        background-color: azure;
+    }
+
+    tr:last-of-type {
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    th,
+    td:last-of-type {
+        padding: 2px 3px;
+
+    }
+
+    th {
+        text-align: left;
+    }
+
+    .home {
+        display: block;
+        text-align: center;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    th,
+    td {
+        font-size: .8rem;
+    }
+
+    .calc-header {
+        text-align: center;
+    }
+
+    .radio-left {
+        align-items: left;
+    }
+
+    .inner-calc {
+        padding: 5px 20px;
+    }
+
+    .fieldset {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 auto;
+        border: none;
+        font-size: 1.1rem;
+    }
+
+    legend {
+        padding: 15px 0px;
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+
+    input {
+        height: 12px;
+        align-content: center;
+        align-items: center;
+        padding: 15px 10px;
+        margin-top: 3px;
+    }
+
+    label {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .form-fields {
+        margin: 5px 0;
+        padding: 15px 0px;
+    }
+
+    .volume {
+        padding: 15px 10px;
+        width: 98%;
+        border-radius: 5px;
+    }
+
+    .button {
+        display: block;
+        width: 45%;
+        background-color: rgb(7, 116, 28);
+        text-align: center;
+        /* align-self: right; */
+        font-size: 1.2rem;
+        padding: 8px 0;
+        margin-left: 54%;
+        border-radius: 35px;
+        color: white;
+    }
+
+    .button:hover {
+        font-weight: bolder;
+        box-shadow: 2px 5px 5px rgb(2, 26, 2);
+    }
+
+    .output {
+        display: block;
+        margin: 10px auto;
+        font-weight: 500;
+        width: 85%;
+        min-height: 240px;
+        color: rgb(56, 5, 5);
+    }
+
+    .radio-input {
+        width: 48.3%;
+        border-radius: 5px;
+        padding-left: 5px;
+    }
+
+    .desc {
+        font-size: small;
+        font-weight: 700;
+        color: green;
+    }
+
+    .save {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        height: 50px;
+        /* background-color: black; */
+        color: white;
+        text-align: center;
+        padding-top: 5%;
+        border-radius: 0 !important;
+    }
+
+    .save:first-of-type {
+        width: 60%;
+        height: 25px;
+        font-size: medium;
+        padding: 0 !important;
+    }
+
+    .print {
+        color: black;
+    }
+
+    .footer-note {
+        text-align: center;
+        display: inline;
+        justify-content: space-between;
+        align-content: top;
+        align-items: top;
+        padding-bottom: 16px;
+        padding-left: -10px !important;
+        padding-right: -10px;
+    }
+
+    .text {
+        font-size: 1rem;
+        color: white;
+        font-weight: 500;
+        padding: 15px 0;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .icon:hover {
+        transition: all;
+        background: linear-gradient(green, white, white, white, green);
+        border-radius: 50%;
+        box-shadow: 3px 1px 8px whitesmoke;
+        position: relative;
+        right: 3px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-size: 12.6px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    body {
+        background: linear-gradient(180deg, white, whitesmoke, rgb(201, 239, 201), whitesmoke, green);
+    }
+
+    h1.heading {
+        font-size: 3rem;
+        margin: 25px 0;
+        padding: 30px 0;
+        color: black;
+        text-align: center !important;
+    }
+
+    h3.heading {
+        font-size: 2.7rem;
+        margin: 0;
+        padding: 12px 6px;
+        color: black;
+    }
+
+    p.header {
+        font-size: 1.4rem;
+        padding: 5px 3px;
+        font-weight: 500;
+
+    }
+
+    #head {
+        text-align: justify;
+        margin: 0;
+        padding: 0;
+        height: auto;
+        /* box-shadow: 2px 5px 5px (180deg, green 5%, whitesmoke, white); */
+    }
+
+    .body {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        width: 90%;
+    }
+
+    .main-frame {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px 0;
+        min-height: 90dvh;
+        margin-top: 25px;
+        /* border: 2px solid red; */
+    }
+
+    .bird {
+        display: block;
+        margin: 10px auto 15px;
+        padding: 0px 10px;
+        width: 90%;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 2px 2px 5px black;
+    }
+
+    .bird-name {
+        background: rgb(7, 116, 28);
+        height: auto;
+        margin: 10px auto;
+        text-align: center;
+        padding: 3px 10px 12px;
+        border-radius: 6px 6px 0 0;
+    }
+
+    .bird-detail {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 15px 15px;
+        padding: 15px 25px;
+    }
+
+    h2 {
+        font-size: 1.9rem;
+        color: whitesmoke;
+    }
+
+    .img {
+        /* align-self: center; */
+        width: 80%;
+        height: 200px;
+        image-rendering: auto;
+
+    }
+
+    .proceed {
+        display: block;
+        width: 50%;
+        background-color: rgb(7, 116, 28);
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 15px 0;
+        margin: 20px auto;
+        border-radius: 40px;
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .proceed:hover {
+        /* background-color: rgb(19, 194, 74); */
+        font-weight: bolder;
+        /* color: green; */
+        border: 1px solid green;
+        margin: 19.2px auto;
+        box-shadow: 2px 5px 5px rgb(2, 26, 2);
+    }
+
+    .calculator {
+        display: block;
+        margin: 23px auto;
+        width: 94%;
+        min-height: 60dvh;
+        background-color: rgb(2, 66, 20);
+        padding: 5px;
+        z-index: -1;
+        box-shadow: -2px 1px 15px black;
+    }
+
+    .inner-calc {
+        display: block;
+        position: relative;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(177, 245, 196);
+        /* border: 2px solid red; */
+        z-index: 1;
+    }
+
+    table {
+        border: solid 1px green;
+        width: 100%;
+    }
+
+    td {
+        width: 31%;
+        color: black;
+    }
+
+    td:first-of-type {
+        width: 24%;
+        color: black;
+    }
+
+    td:last-of-type {
+        width: auto;
+        color: black;
+    }
+
+    table {
+        display: block;
+        margin: 0 auto;
+    }
+
+    tr {
+        background-color: azure;
+    }
+
+    tr:last-of-type {
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    th,
+    td:last-of-type {
+        padding: 2px 3px;
+
+    }
+
+    th {
+        text-align: left;
+    }
+
+    .home {
+        display: block;
+        text-align: center;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    th,
+    td {
+        font-size: 1rem;
+    }
+
+    .calc-header {
+        text-align: center;
+    }
+
+    .radio-left {
+        align-items: left;
+    }
+
+    .inner-calc {
+        padding: 5px 20px;
+    }
+
+    .fieldset {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 auto;
+        border: none;
+        font-size: 1rem;
+    }
+
+    legend {
+        padding: 15px 0px;
+        font-weight: 500;
+        font-size: 1.4rem;
+    }
+
+    input {
+        height: 12px;
+        align-content: center;
+        align-items: center;
+        padding: 15px 10px;
+        margin-top: 3px;
+    }
+
+    label {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .form-fields {
+        margin: 5px 0;
+        padding: 15px 0px;
+    }
+
+    .volume {
+        padding: 15px 10px;
+        width: 98%;
+        border-radius: 5px;
+    }
+
+    .button {
+        display: block;
+        width: 45%;
+        background-color: rgb(7, 116, 28);
+        text-align: center;
+        /* align-self: right; */
+        font-size: 1.2rem;
+        padding: 8px 0;
+        margin-left: 54%;
+        border-radius: 35px;
+        color: white;
+    }
+
+    .button:hover {
+        font-weight: bolder;
+        box-shadow: 2px 5px 5px rgb(2, 26, 2);
+    }
+
+    .output {
+        display: block;
+        margin: 10px auto;
+        font-weight: 500;
+        width: 85%;
+        min-height: 240px;
+        color: rgb(56, 5, 5);
+    }
+
+    .radio-input {
+        width: 48.3%;
+        border-radius: 5px;
+        padding-left: 5px;
+    }
+
+    .desc {
+        font-size: 1rem;
+        font-weight: 700;
+        color: green;
+    }
+
+    .save {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        height: 50px;
+        /* background-color: black; */
+        color: white;
+        text-align: center;
+        padding: 0 5%;
+        border-radius: 0 !important;
+        font-size: larger;
+    }
+
+    .save:first-of-type {
+        width: 35%;
+        height: 25px;
+        font-size: medium;
+        padding: 0 !important;
+    }
+
+    .print {
+        color: black;
+    }
+
+    .footer-note {
+        text-align: center;
+        display: inline;
+        justify-content: space-between;
+        align-content: top;
+        align-items: top;
+        padding-bottom: 16px;
+        padding-left: -10px !important;
+        padding-right: -10px;
+    }
+
+    .text {
+        font-size: 1rem;
+        color: white;
+        font-weight: 500;
+        padding: 15px 0;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .icon:hover {
+        transition: all;
+        background: linear-gradient(green, white, white, white, green);
+        border-radius: 50%;
+        box-shadow: 3px 1px 8px whitesmoke;
+        position: relative;
+        right: 3px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-size: 12.6px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    body {
+        background: linear-gradient(180deg, white, whitesmoke, rgb(201, 239, 201), whitesmoke, green);
+    }
+
+    h1.heading {
+        font-size: 4.2rem;
+        margin: 0;
+        padding: 35px 15px;
+        color: black;
+    }
+
+    h3.heading {
+        font-size: 2.4rem;
+        margin: 0;
+        padding: 6px;
+        color: black;
+    }
+
+    p.header {
+        font-size: 1.6rem;
+        padding: 0px 30px;
+        font-weight: 500;
+        text-align: justify;
+    }
+
+    #head {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        height: auto;
+        /* box-shadow: 2px 5px 5px (180deg, green 5%, whitesmoke, white); */
+    }
+
+    .body {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        width: 85%;
+    }
+
+    .main-frame {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5px 0;
+        min-height: 60dvh;
+    }
+
+    .bird {
+        display: block;
+        margin: 0;
+        padding: 6px 15px;
+        width: 45%;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 2px 2px 5px black;
+    }
+
+    .bird-name {
+        background: rgb(7, 116, 28);
+        height: 50px;
+        margin: 10px auto;
+        text-align: center;
+        padding: 0 10px 12px;
+        border-radius: 6px 6px 0 0;
+    }
+
+    .bird-detail {
+        display: flex;
+        justify-content: space-between;
+        margin: 15px 15px;
+        padding: 3px 5px;
+    }
+
+    h2 {
+        font-size: 2.3rem;
+        color: whitesmoke;
+    }
+
+    .img {
+        width: 65%;
+        height: 200px;
+        image-rendering: inherit;
+
+    }
+
+    .proceed {
+        display: block;
+        width: 55%;
+        background-color: rgb(7, 116, 28);
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 15px 0;
+        margin: 20px auto;
+        border-radius: 35px;
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .proceed:hover {
+        /* background-color: rgb(19, 194, 74); */
+        font-weight: bolder;
+        /* color: green; */
+        border: 1px solid green;
+        margin: 19.2px auto;
+        box-shadow: 2px 5px 5px rgb(2, 26, 2);
+    }
+
+    .calculator {
+        display: block;
+        margin: 23px auto;
+        width: 80%;
+        min-height: 70dvh;
+        background-color: rgb(2, 66, 20);
+        padding: 5px;
+        z-index: -1;
+        box-shadow: -2px 1px 15px black;
+    }
+
+    .inner-calc {
+        display: block;
+        position: relative;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(177, 245, 196);
+        /* border: 2px solid red; */
+        z-index: 1;
+    }
+
+    table {
+        border: solid 1px green;
+        width: 100%;
+    }
+
+    td {
+        width: 29%;
+        color: black;
+    }
+
+    td:first-of-type {
+        width: 24%;
+        color: black;
+    }
+
+    td:last-of-type {
+        width: auto;
+        color: black;
+    }
+
+    table {
+        display: block;
+        margin: 0 auto;
+    }
+
+    tr {
+        background-color: azure;
+    }
+
+    tr:last-of-type {
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    th,
+    td:last-of-type {
+        padding: 2px 3px;
+
+    }
+
+    th {
+        text-align: left;
+    }
+
+    .home {
+        display: block;
+        text-align: center;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    .calc-header {
+        text-align: center;
+    }
+
+    .radio-left {
+        align-items: left;
+    }
+
+    .inner-calc {
+        padding: 5px 20px;
+    }
+
+    .fieldset {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+        border: none;
+        font-size: 1.5rem;
+    }
+
+    legend {
+        padding: 15px 20px;
+        font-weight: 500;
+        font-size: 1.4rem;
+    }
+
+    input {
+        height: 12px;
+        align-content: center;
+        align-items: center;
+        padding: 15px 10px;
+        padding: 15px 0;
+    }
+
+    label {
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+
+    .form-fields {
+        margin: 10px auto;
+        padding: 15px 20px;
+    }
+
+    .volume {
+        padding: 15px 10px;
+        width: 78%;
+        border-radius: 5px;
+    }
+
+    .button {
+        display: block;
+        width: 35%;
+        background-color: rgb(7, 116, 28);
+        text-align: center;
+        /* align-self: right; */
+        font-size: 1.5rem;
+        padding: 15px 0;
+        margin-left: 60%;
+        border-radius: 35px;
+        color: white;
+    }
+
+    .button:hover {
+        font-weight: bolder;
+        box-shadow: 2px 5px 5px rgb(2, 26, 2);
+    }
+
+    .output {
+        display: block;
+        margin: 10px auto;
+        font-weight: 700;
+        width: 85%;
+        min-height: 240px;
+        color: rgb(56, 5, 5);
+    }
+
+    .radio-input {
+        width: 120px;
+        border-radius: 5px;
+        padding-left: 5px;
+    }
+
+    .desc {
+        font-size: x-small;
+        font-weight: 700;
+        color: green;
+    }
+
+    .save {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        height: 50px;
+        /* background-color: black; */
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        border-radius: 0 !important;
+    }
+
+    .save:first-of-type {
+        width: 40%;
+        height: 25px;
+        font-size: medium;
+        padding: 0 !important;
+    }
+
+    .print {
+        color: black;
+    }
+
+    .footer-note {
+        display: flex;
+        justify-content: space-between;
+        align-content: top;
+        align-items: top;
+        padding-bottom: 16px;
+        padding-left: 109px;
+        padding-right: 109px;
+    }
+
+    .text {
+        font-size: 1.2rem;
+        color: white;
+        font-weight: 500;
+    }
+
+    .icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .icon:hover {
+        transition: all;
+        background: linear-gradient(green, white, white, white, green);
+        border-radius: 50%;
+        box-shadow: 3px 1px 8px whitesmoke;
+        position: relative;
+        right: 3px;
+    }
+}
